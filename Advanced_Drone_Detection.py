@@ -2,7 +2,9 @@ import cv2
 import torch
 import numpy as np
 from PIL import Image
-
+import os
+import sys
+import torch
 # Load YOLOv5 model
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', source='github')
 
